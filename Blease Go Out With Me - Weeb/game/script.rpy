@@ -1,8 +1,11 @@
+
+define povname = "MC-san"
+
 #characters
-define m = Character("MC", color="#052860")
-define f = Character("Fish", color="#2c0889")
-define n = Character("Narrator")
-define a = Character("Alyssa")
+define m = Character("[povname]", color="#052860")
+define f = Character("Fish-san", color="#2c0889")
+define n = Character("Narrator-san")
+define a = Character("Alyssa-san")
 
 #vars
 define points = 0
@@ -20,7 +23,7 @@ image groundBg = "groundBg.jpg"
 image groundwBread = im.FactorScale("groundwBread.png", 0.4)
 image groundwoBread = im.FactorScale("groundwoBread.png", 0.4)
 image groundBg2 = "groundBg.jpg"
-image groundBgEnd = "groundBgEnd.jpg"
+image groundBgEnd = im.FactorScale("groundBgEnd.jpg", 1.2)
 image cafe = im.FactorScale("cafe.jpg", 0.9)
 image karaoke = im.FactorScale("karaoke.jpg", 1.2)
 image cafeCounter = im.FactorScale("coffee-shop.jpg", 0.4)
@@ -38,6 +41,12 @@ image alyssa = im.FactorScale("alyssa.png", 0.5)
 image alyssaShock = im.FactorScale("alyssaShock.png", 0.5)
 
 label start:
+    $ povname = renpy.input("What is your name?")
+    $ povname = povname.strip()+"-san"
+
+    if povname == "-san":
+        $ povname = "MC-san"
+
     scene black
     scene street1
     with moveinleft
