@@ -1,4 +1,4 @@
-Blease Go Out With Me (Version 1) ((The version number on the game is a lie)
+Blease Go Out With Me (Version 1.1) ((The version number on the game is a lie)
 ---------------------
 About: 
 
@@ -18,6 +18,12 @@ To Play:
 ----------------------
 Version 1:
 - Uploaded game that was submitted to the competition
+
+(v1.1) 03.09.19 update:
+- Fixed background glitch
+- added MC dabbing sprite (most requested)
+- added custom name option
+- weebified
 
 ----------------------
 Credits:
