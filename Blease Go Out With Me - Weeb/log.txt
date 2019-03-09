@@ -291,4 +291,22 @@ Load screen analysis took 0.06s
 Analyze screens took 0.00s
 Prepare screens took 0.00s
 Running _start took 0.00s
-Clean
+Cleaning stores took 0.00s
+Init translation took 0.64s
+Build styles took 0.08s
+Load screen analysis took 0.06s
+Analyze screens took 0.00s
+Prepare screens took 0.00s
+Running _start took 0.01s
+Cleaning stores took 0.00s
+Init translation took 0.69s
+Build styles took 0.10s
+Load screen analysis took 0.06s
+Analyze screens took 0.00s
+Prepare screens took 0.00s
+Running _start took 0.01s
+The window was minimized.
+The window was restored.
+
+primary display bounds: (0, 0, 1366, 768)
+swap interval: 1 frames
